@@ -1,0 +1,40 @@
+/* Açıklama Satırı*/
+/* ctrl + ö ile açabilirsin */
+/************ İstediğin kadar yıldız koyabilirsin **************/
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+body {
+    font-family: Agbalumo;
+    background: rgb(4,187,219);
+    background: linear-gradient(90deg, rgba(4,187,219,1) 0%, rgba(217,184,34,1) 100%);
+    position: relative; /* Sabit pozisyon */
+    top: 0; /* Ekranın en üstünde */
+    left: 8%; /* Ekranın sol tarafında */
+    width: 92%; /* Aside genişliği (istediğiniz genişliği ayarlayabilirsiniz) */
+}
+
+aside {
+    background: rgb(4,187,219);
+    background: linear-gradient(90deg, rgba(4,187,219,1) 0%, rgba(34,127,217,1) 100%);
+    position: fixed; /* Sabit pozisyon */
+    top: 0; /* Ekranın en üstünde */
+    left: 2px; /* Ekranın sol tarafında */
+    width: 8%; /* Aside genişliği (istediğiniz genişliği ayarlayabilirsiniz) */
+    height: 100%; /* Ekran yüksekliği kadar uzansın */
+    background-color: #f0f0f0; /* Arkaplan rengi (isteğinize göre değiştirin) */
+    overflow: auto; /* Scroll çubuğu eklendiğinde içeriğin kaydırılmasını sağlar */
+}
+
+#barp {
+    text-align: center; /* Metni ortala */
+    margin-bottom: 10px; /* İstediğiniz boşluğu ayarlayabilirsiniz */
+}
+
+#always {
+    position: relative;
+    width: 98%;
+    height: 500px;
+    left: 2px;
+    right: 15px;
+}
